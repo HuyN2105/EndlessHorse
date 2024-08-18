@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HuyN's Endless Horse</title>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="Middle">
+			<div id="Horse">
+				<pre>
+                ,
+                _,,)\.~,,._
+                (()`  ``)\))),,_
+                 |     \ ''((\)))),,_          ____
+                 |6`   |   ''((\())) "-.____.-"    `-.-,
+                 |    .'\    ''))))'                  \)))
+                 |   |   `.     ''                     ((((
+                 \, _)     \/                          |))))
+                  `'        |                          (((((
+                            \                  |       ))))))
+                             `|    |           ,\     /((((((
+                              |   / `-.______.<  \   |  )))))
+                              |   |  /         `. \  \  ((((
+                              |  / \ |           `.\  | (((
+                              \  | | |             )| |  ))
+                               | | | |             || |  '
+            </pre
+				>
+			</div>
+			<div id="ExistingHorseLeg">
+				<pre>
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+                               | | | |             || |  
+            </pre
+				>
+			</div>
+			<div><pre id="ExtendingHorseLeg"></pre></div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+		<script>
+			$(window).bind('mousewheel', function (event) {
+				if (event.originalEvent.wheelDelta < 0) {
+					$('#ExtendingHorseLeg').append(
+						'                               | | | |             || |  \n'
+					);
+					$('#ExtendingHorseLeg').append(
+						'                               | | | |             || |  \n'
+					);
+				}
+			});
+		</script>
+	</body>
+</html>

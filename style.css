@@ -1,0 +1,21 @@
+* {
+	color: white;
+	background: black;
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+}
+
+#ExistingHorseLeg,
+#ExtendingHorseLeg {
+	margin-top: -1.7vh;
+}
+
+#Middle {
+	position: absolute;
+	display: block;
+	top: 30vh;
+	left: 35vw;
+}
